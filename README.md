@@ -68,6 +68,7 @@ Vue-cli3 でプロジェクトを作成し、そのプロジェクトを GitHub 
    git add　-A  
    git commit -m "コメント"  
    git push -u origin new-branch 
+   (二回目からは、 git push)
 
 
 ## Project setup
