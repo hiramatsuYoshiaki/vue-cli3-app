@@ -30,6 +30,17 @@ Vue.-cli でプロジェクトを作成し、そのプロジェクトを GitHub 
 3. git remote add origin https://github.com/hiramatsuYoshiaki/プロジェクト名
 4. git push -u origin master
 
+# vue-cli3-app1
+現在のブランチから派生ブランチを作成してGitHubへPushする。
+1. git branch 新しいブランチ名
+2. git checkout 新しいブランチ名
+3. git branch
+   * 新しいブランチ名
+     master
+4. git add -A
+5. git commit -m 'new branch commit'
+6. git push --set-upstream origin dev1
+
 
 
 
