@@ -2,6 +2,13 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h1>GitHub Page Here</h1>
+    <ul>
+      <li>
+        <h1>Part1 Vue.-cli でプロジェクトを作成し、そのプロジェクトを GitHub に Push するまでの方法</h1>
+        <h1>Part2 現在のブランチから派生ブランチを作成してGitHubへPushする。</h1>
+        <h1>Part3 cloneを作成して派生ブランチを作成してGitHubへPushする。。</h1>
+      </li>
+    </ul>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
