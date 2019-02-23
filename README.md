@@ -33,16 +33,42 @@ Vue-cli3 でプロジェクトを作成し、そのプロジェクトを GitHub 
 # vue-cli3-app1
 現在のブランチから派生ブランチを作成してGitHubへPushする。  
 
-1. git branch 新しいブランチ名
-2. git checkout 新しいブランチ名
+1. git branch new-branch
+2. git checkout new-branch
 3. git branch
-   * 新しいブランチ名
+   * new-branch
      master
 4. git add -A
 5. git commit -m 'new branch commit'
-6. git push --set-upstream origin dev1
+6. git push --set-upstream origin new-branch
+   (もしくは、　git push -u origin new-branch)
 
+# vue-cli3-app1
+リモートリポジトリをcloneしてローカルで開発をして、GitHubへpushする。  
 
+## GitHubリポジトリをcloneしてローカルプロジェクト作る
+1. リモートリポジトリをcloneする。 
+    git clone https://github.com/hiramatsuYoshiaki/vue-cli3-app.git  
+2. インストールする  
+    npm install  
+3. サーバーを立ち上げて確認    
+   npm run serve
+4. ローカルサーバーへアクセス 
+   http://localhost:8080/で確認する。
+
+## ローカルプロジェクトをGitHubへpushする。
+1. 現在のブランチを確認する。
+   git branch  
+   * master  
+2. masterから新しいbranchを作る  
+　　git branch new-branch   
+3. 新しいbranchに移動し開発を行う。  
+   git checkout new-branch  
+4. コミットしてGitHubにpushする  
+   git add　-A  
+   git commit -m "コメント"  
+   git push -u origin new-branch 
+   (二回目からは、 git push)
 
 
 ## Project setup
