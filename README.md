@@ -1,5 +1,5 @@
 # vue-cli3-app1
-Vue.-cli でプロジェクトを作成し、そのプロジェクトを GitHub に Push するまでの方法  
+Vue-cli3 でプロジェクトを作成し、そのプロジェクトを GitHub に Push するまでの方法  
 
 ## ローカルにプロジェクトを作成する。
 1. vue create プロジェクト名　　
@@ -31,7 +31,8 @@ Vue.-cli でプロジェクトを作成し、そのプロジェクトを GitHub 
 4. git push -u origin master
 
 # vue-cli3-app1
-現在のブランチから派生ブランチを作成してGitHubへPushする。
+現在のブランチから派生ブランチを作成してGitHubへPushする。  
+
 1. git branch 新しいブランチ名
 2. git checkout 新しいブランチ名
 3. git branch
