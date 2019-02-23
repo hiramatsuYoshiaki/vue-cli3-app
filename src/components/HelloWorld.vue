@@ -5,8 +5,12 @@
     <ul>
       <li>
         <h1>Part1 Vue.-cli でプロジェクトを作成し、そのプロジェクトを GitHub に Push するまでの方法</h1>
+        <p>ローカルにプロジェクトを作成する。</p>
+        <p>GitHub Pageに公開する設定をする。</p>
+        <p>GitHub リポジトリの作成</p>
+        <p>プロジェクトを GitHub に Push する</p>
         <h1>Part2 現在のブランチから派生ブランチを作成してGitHubへPushする。</h1>
-        <h1>Part3 cloneを作成して派生ブランチを作成してGitHubへPushする。。</h1>
+        <h1>Part3 cloneを作成して派生ブランチを作成してGitHubへPushする。</h1>
       </li>
     </ul>
     <p>
