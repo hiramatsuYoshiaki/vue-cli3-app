@@ -67,8 +67,20 @@ Vue-cli3 でプロジェクトを作成し、そのプロジェクトを GitHub 
 4. コミットしてGitHubにpushする  
    git add　-A  
    git commit -m "コメント"  
-   git push -u origin new-branch 
-   (二回目からは、 git push)
+   git push -u origin new-branch  
+   (二回目からは、 git push)  
+
+## localでいままで作業していたbranchを削除する
+  1.これで削除できます。これはしなくてもいいですが、開発が進んでいくとbranchが増えてbranch一覧がごちゃごちゃしてくるのでやったほうがいいです。  
+  git branch -d new-branch  
+
+## 他の人の開発分を取り込む
+1. masterに他の人が追加した分を自分のところに取り込みます。 
+  git pull origin master  
+  
+    
+     
+
 
 
 ## Project setup
