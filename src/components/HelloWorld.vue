@@ -5,15 +5,19 @@
     <h1>pert1 - 3</h1>
     <ul>
       <li>
+        <h1>リポジトリ管理者</h1>
         <h1>Part1 Vue.-cli でプロジェクトを作成し、そのプロジェクトを GitHub に Push するまでの方法</h1>
         <p>ローカルにプロジェクトを作成する。</p>
         <p>GitHub Pageに公開する設定をする。</p>
         <p>GitHub リポジトリの作成</p>
         <p>プロジェクトを GitHub に Push する</p>
         <h1>Part2 現在のブランチから派生ブランチを作成してGitHubへPushする。</h1>
+        <h1>開発者</h1>
         <h1>Part3 cloneを作成して派生ブランチを作成してGitHubへPushする。</h1>
         <p>GitHubリポジトリをcloneしてローカルプロジェクト作る</p>
         <p>ローカルプロジェクトをGitHubへpushする。</p>
+        <h1>Part4 localでいままで作業していたbranchを削除する</h1>
+        <h1>Part5 masterに他の人が追加した分を自分のところに取り込みます。</h1>
       </li>
     </ul>
     <p>
